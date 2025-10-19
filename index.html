@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geospatial & Remote Sensing Quiz</title>
+    <!-- Load Tailwind CSS for modern styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Use Inter font family -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="min-h-screen flex items-center justify-center p-4">
+
+    <div id="quiz-container" class="w-full max-w-lg bg-gray-800 shadow-2xl rounded-xl p-8 space-y-6 border border-indigo-700/50">
+
+        <!-- Header and Score -->
+        <div class="text-center">
+            <h1 class="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-sky-500">
+                🗺️ Geospatial Nerds Quiz 🛰️
+            </h1>
+            <p id="score-display" class="mt-2 text-xl font-medium text-gray-300">
+                Score: 0 / 10
+            </p>
+        </div>
+
+        <!-- Question Area -->
+        <div id="question-card" class="bg-gray-700 p-6 rounded-lg shadow-inner">
+            <p id="question-text" class="text-lg font-semibold text-white mb-4">
+                Question will appear here...
+            </p>
+        </div>
+
+        <!-- Options Area -->
+        <div id="options-container" class="grid grid-cols-1 gap-4">
+            <!-- Buttons will be dynamically added here -->
+        </div>
+
+        <!-- Result/Restart Message Area -->
+        <div id="result-message" class="hidden text-center p-4 rounded-lg bg-yellow-900/50 text-yellow-300 font-semibold transition-all duration-300">
+            <!-- Messages appear here -->
+        </div>
+
+        <!-- Navigation/Restart Button -->
+        <div class="flex justify-center">
+            <button id="next-button" class="hidden w-full py-3 bg-indigo-600 text-white font-bold rounded-lg shadow-lg hover:bg-indigo-700 transition duration-200 focus:outline-none focus:ring-4 focus:ring-indigo-500 focus:ring-opacity-50" onclick="nextQuestion()">
+                Next Question
+            </button>
+            <button id="restart-button" class="hidden w-full py-3 bg-teal-600 text-white font-bold rounded-lg shadow-lg hover:bg-teal-700 transition duration-200 focus:outline-none focus:ring-4 focus:ring-teal-500 focus:ring-opacity-50" onclick="initQuiz()">
+                Restart Quiz
+            </button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

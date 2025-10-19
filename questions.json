@@ -1,0 +1,152 @@
+[
+    {
+        "question": "What does the acronym GIS stand for?",
+        "options": ["Global Imaging System", "Geospatial Intelligence Service", "Geographic Information System"],
+        "answer": "Geographic Information System"
+    },
+    {
+        "question": "Which type of remote sensing sensor is typically used to create a Normalized Difference Vegetation Index (NDVI)?",
+        "options": ["Synthetic Aperture Radar (SAR)", "LiDAR", "Multispectral"],
+        "answer": "Multispectral"
+    },
+    {
+        "question": "What is the primary advantage of a geostationary orbit for Earth observation satellites?",
+        "options": ["High spatial resolution", "Global coverage in 24 hours", "Continuous view of the same area"],
+        "answer": "Continuous view of the same area"
+    },
+    {
+        "question": "What is the term for the process of correcting a satellite image for geometric distortions and terrain variation (making it map-accurate)?",
+        "options": ["Image Classification", "Digital Elevation Modeling (DEM)", "Orthorectification"],
+        "answer": "Orthorectification"
+    },
+    {
+        "question": "Which famous US land satellite program, operating since the early 1970s, is known for its long-running data archive?",
+        "options": ["SPOT (Systeme Probatoire d'Observation de la Terre)", "Sentinel", "Landsat"],
+        "answer": "Landsat"
+    },
+    {
+        "question": "In GPS, how many satellites minimum are required to determine a receiver's position in three dimensions (latitude, longitude, and elevation)?",
+        "options": ["Two", "Three", "Four"],
+        "answer": "Four"
+    },
+    {
+        "question": "Which common vector data model represents geographical features using points, lines, and polygons?",
+        "options": ["Raster Model", "TIN Model", "Topology Model"],
+        "answer": "Topology Model"
+    },
+    {
+        "question": "What term describes the smallest unit of information (the 'cell') in a raster image?",
+        "options": ["Vertex", "Vector", "Pixel"],
+        "answer": "Pixel"
+    },
+    {
+        "question": "What is the term for a coordinate system's origin point and its orientation?",
+        "options": ["Projection", "Ellipsoid", "Datum"],
+        "answer": "Datum"
+    },
+    {
+        "question": "The spatial resolution of a satellite image refers to the size of what unit on the ground?",
+        "options": ["Temporal cycle", "Spectral band", "Pixel"],
+        "answer": "Pixel"
+    },
+    {
+        "question": "Which satellite constellation provides the most widely used public access imagery for general mapping applications?",
+        "options": ["MODIS", "ASTER", "Sentinel-2"],
+        "answer": "Sentinel-2"
+    },
+    {
+        "question": "What feature of LiDAR makes it highly effective for penetrating tree canopy and mapping ground topography?",
+        "options": ["Passive spectral bands", "High revisit rate", "Active illumination"],
+        "answer": "Active illumination"
+    },
+    {
+        "question": "Which spectral region is most sensitive to the temperature of objects on the Earth's surface?",
+        "options": ["Visible", "Near-Infrared (NIR)", "Thermal Infrared (TIR)"],
+        "answer": "Thermal Infrared (TIR)"
+    },
+    {
+        "question": "What is the main purpose of reclassifying a raster layer in GIS?",
+        "options": ["Changing the projection", "Converting it to vector data", "Simplifying the data into categories"],
+        "answer": "Simplifying the data into categories"
+    },
+    {
+        "question": "In photogrammetry, what is the term for the overlap between successive aerial photographs?",
+        "options": ["Swath width", "Sidelap", "Endlap"],
+        "answer": "Endlap"
+    },
+    {
+        "question": "What common geodetic reference ellipsoid is used by the Global Positioning System (GPS)?",
+        "options": ["Clarke 1866", "GRS 80", "WGS 84"],
+        "answer": "WGS 84"
+    },
+    {
+        "question": "What term describes the collection of attributes associated with a geographic feature in a GIS?",
+        "options": ["Metadata", "Topology", "Attribute Table"],
+        "answer": "Attribute Table"
+    },
+    {
+        "question": "Which atmospheric effect causes remote sensing imagery to appear hazy or bluish due to light scattering?",
+        "options": ["Refraction", "Absorption", "Rayleigh Scattering"],
+        "answer": "Rayleigh Scattering"
+    },
+    {
+        "question": "What does the 'temporal resolution' of a satellite refer to?",
+        "options": ["The size of the smallest detectable object", "The number of spectral bands", "How frequently it passes over the same area"],
+        "answer": "How frequently it passes over the same area"
+    },
+    {
+        "question": "The process of creating a new feature by merging adjacent polygons with similar attributes is called what?",
+        "options": ["Buffering", "Intersecting", "Dissolving"],
+        "answer": "Dissolving"
+    },
+    {
+        "question": "Which type of radar collects data by measuring the travel time and intensity of emitted microwave signals?",
+        "options": ["Passive Radar", "Hyperspectral Radar", "Synthetic Aperture Radar (SAR)"],
+        "answer": "Synthetic Aperture Radar (SAR)"
+    },
+    {
+        "question": "A feature that is stored as a series of vertices connected by straight-line segments in a GIS is known as what?",
+        "options": ["Polygon", "Raster", "Polyline"],
+        "answer": "Polyline"
+    },
+    {
+        "question": "Which component of the electromagnetic spectrum is critical for measuring soil moisture and surface roughness because it penetrates clouds?",
+        "options": ["Ultraviolet", "Shortwave Infrared", "Microwave"],
+        "answer": "Microwave"
+    },
+    {
+        "question": "The accuracy difference between the actual location and the location recorded by a GPS receiver is known as what?",
+        "options": ["Dilution of Precision (DOP)", "Multipath error", "Positional error"],
+        "answer": "Positional error"
+    },
+    {
+        "question": "What is a 'shapefile'?",
+        "options": ["A proprietary image format", "A type of database index", "A common GIS vector data format"],
+        "answer": "A common GIS vector data format"
+    },
+    {
+        "question": "What is the vertical accuracy measure commonly associated with Digital Elevation Models (DEMs)?",
+        "options": ["Temporal Error (TE)", "Spectral Resolution (SR)", "Root Mean Square Error (RMSE)"],
+        "answer": "Root Mean Square Error (RMSE)"
+    },
+    {
+        "question": "Which coordinate system uses northing and easting values based on a central meridian?",
+        "options": ["Geographic Coordinate System (GCS)", "State Plane", "Universal Transverse Mercator (UTM)"],
+        "answer": "Universal Transverse Mercator (UTM)"
+    },
+    {
+        "question": "What is the primary characteristic that distinguishes hyperspectral imaging from multispectral imaging?",
+        "options": ["Higher spatial resolution", "Faster data revisit time", "Greater number of, narrower spectral bands"],
+        "answer": "Greater number of, narrower spectral bands"
+    },
+    {
+        "question": "Which organization manages the Landsat program?",
+        "options": ["European Space Agency (ESA)", "National Oceanic and Atmospheric Administration (NOAA)", "NASA and USGS"],
+        "answer": "NASA and USGS"
+    },
+    {
+        "question": "What is the process of geographically matching two or more images so that the same areas align?",
+        "options": ["Image enhancement", "Spatial filtering", "Georeferencing"],
+        "answer": "Georeferencing"
+    }
+]

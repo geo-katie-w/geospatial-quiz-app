@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #0d1117; /* Deep charcoal/space-themed background */
+}
+
+/* small helper class for option buttons that the script relies on */
+.option-button {
+    width: 100%;
+}
